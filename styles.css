@@ -42,3 +42,32 @@ h3 {
     flex-shrink: 0;
     aspect-ratio: 488/319;
 }
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.music-projects {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFCFC;
+    font-size: 64px;
+    font-weight: bold;
+    font-weight: 800;
+    text-shadow: 1px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
