@@ -1,0 +1,44 @@
+body {
+    background-image: url(Images/beach.webp);
+    background-size: cover;
+}
+
+h2 {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFCFC;
+    font-size: 100px;
+    font-weight: bold;
+    font-weight: 800;
+    text-shadow: 1px 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bio {
+    color: #000000;
+    font-weight: regular;
+    font-family: "Poppins", sans-serif; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFEFE;
+    font-size: 24px;
+    text-shadow: 1px 1px;
+}
+
+h3 {
+    color: #000000;
+    font-weight: regular;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFEFE;
+    font-size: 32px;
+    text-shadow: 1px 1px;
+}
+
+.pr-flag {
+    width: 488px;
+    height: 319px;
+    flex-shrink: 0;
+    aspect-ratio: 488/319;
+}
