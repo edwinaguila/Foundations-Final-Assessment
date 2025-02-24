@@ -59,6 +59,12 @@ a {
     text-decoration: none;
 }
 
+h2.work-heading {
+    display: flex;
+    justify-content: center;
+    
+    letter-spacing: 50%;
+}
 .music-projects {
     color: #03045E;
     font-family: "Poppins", sans-serif;
@@ -70,7 +76,7 @@ a {
     text-shadow: 1px 1px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .images {
@@ -79,12 +85,6 @@ a {
     justify-content: space-evenly;
 }
 
-h2.work-heading {
-    display: flex;
-    justify-content: center;
-    
-    letter-spacing: 20%;
-}
 
 h2.contact-me {
     display: flex;
@@ -95,5 +95,4 @@ h2.contact-me {
 
 form {
     display: flex;
-    flex-direction: column;
 }
