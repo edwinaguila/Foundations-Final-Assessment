@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <ul class="nav-bar">
@@ -20,13 +23,15 @@
     </ul>
     <form>
         <label for="name">Name</label>
-        <input type="text" id="name" name="Name"><br></br>
+        <input type="text" id="name" name="Name" pattern="[A-Za-z]"><br></br>
         <label for="email">Email</label>
-        <input type="text" id="email" name="Email"><br></br>
+        <input type="text" id="email" name="Email" pattern="[A-Za-z]"><br></br>
         <label for="message">Message</label>
-        <input type="text" id="message" name="Message">
+        <input type="text" id="message" name="Message"><br></br>
     </form>
-        <button class="custom-button">Send</button>
+        <div class="custom-button">
+            <button>Send</button>
+        </div>
     <h2 class="contact-me">Contact Me</h2>
 </body>
 </html>
