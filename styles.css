@@ -27,17 +27,14 @@ p {
     -webkit-text-stroke-color: #FFFEFE;
     font-size: 24px;
     text-shadow: 1px 1px;
+    display: flex;
+    flex-direction: column;
     text-wrap: balance;
     position: relative;
     top: 400px;
     left: 60px
 }
 
-.me {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-}
 h3 {
     color: #000000;
     font-weight: regular;
