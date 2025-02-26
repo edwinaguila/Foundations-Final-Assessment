@@ -12,11 +12,12 @@ h2.about {
     font-weight: bold;
     font-weight: 800;
     text-shadow: 1px 1px;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
+    text-align: center;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* position: relative;
     top: 430px;
-    right: 235px;
+    right: 235px; */
 }
 
 p {
@@ -27,10 +28,10 @@ p {
     -webkit-text-stroke-color: #FFFEFE;
     font-size: 24px;
     text-shadow: 1px 1px;
-    text-wrap: balance;
-    position: relative;
+    /* text-wrap: balance; */
+    /* position: relative;
     top: 400px;
-    left: 60px
+    left: 60px */
 }
 
 h3 {
@@ -48,9 +49,10 @@ h3 {
     height: 319px;
     flex-shrink: 0;
     aspect-ratio: 488/319;
-    position: relative;
+    justify-self: center;
+    /* position: relative;
     bottom: 260px;
-    left: 670px;
+    left: 670px; */
 }
 
 .nav-bar {
@@ -157,4 +159,9 @@ form {
 .message {
     height: 100%;
     padding: 50px;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
 }
