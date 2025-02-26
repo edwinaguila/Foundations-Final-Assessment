@@ -13,6 +13,7 @@ h2.about {
     font-weight: 800;
     text-shadow: 1px 1px;
     text-align: center;
+    /* padding-bottom: 100px; */
     /* display: flex;
     justify-content: flex-end; */
     /* position: relative;
@@ -28,6 +29,7 @@ p {
     -webkit-text-stroke-color: #FFFEFE;
     font-size: 24px;
     text-shadow: 1px 1px;
+    /* margin-bottom: 100px; */
     /* text-wrap: balance; */
     /* position: relative;
     top: 400px;
@@ -50,6 +52,7 @@ h3 {
     flex-shrink: 0;
     aspect-ratio: 488/319;
     justify-self: center;
+    padding-top: 200px;
     /* position: relative;
     bottom: 260px;
     left: 670px; */
