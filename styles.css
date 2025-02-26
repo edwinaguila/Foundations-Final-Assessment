@@ -3,7 +3,7 @@ body {
     background-size: cover;
 }
 
-h2 {
+h2.about {
     color: #03045E;
     font-family: "Poppins", sans-serif;
     -webkit-text-stroke-width: 1px;
@@ -33,7 +33,11 @@ p {
     left: 60px
 }
 
-
+.me {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
 h3 {
     color: #000000;
     font-weight: regular;
@@ -51,7 +55,7 @@ h3 {
     aspect-ratio: 488/319;
     position: relative;
     bottom: 260px;
-    left: 690px;
+    left: 670px;
 }
 
 .nav-bar {
@@ -60,7 +64,7 @@ h3 {
     flex-direction: row;
     justify-content: flex-end;
     column-gap: 70px;
-    font-family: "Roboto", serif;
+    font-family: "Poppins", serif;
     font-optical-sizing: auto;
 }
 
@@ -70,14 +74,26 @@ li {
 
 a {
     text-decoration: none;
+    color: #F9F9FF;
 }
 
 h2.work-heading {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFCFC;
+    font-size: 70px;
+    font-weight: bold;
+    font-weight: 800;
+    text-shadow: 1px 1px;
     display: flex;
     justify-content: center;
     text-wrap: wrap;
     letter-spacing: 50%;
+    position: relative;
+    top: 70px;
 }
+
 .music-projects {
     color: #03045E;
     font-family: "Poppins", sans-serif;
@@ -91,7 +107,7 @@ h2.work-heading {
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    top: 200px;
+    bottom: -295px;
     left: 50px;
 }
 
@@ -100,14 +116,24 @@ h2.work-heading {
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    bottom: 200px;
+    bottom: 100px;
 }
 
 
 h2.contact-me {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFCFC;
+    font-size: 70px;
+    font-weight: bold;
+    font-weight: 800;
+    text-shadow: 1px 1px;
     display: flex;
     justify-content: center;
     font-size: 64px;
+    position: relative;
+    bottom: 170px;
 }
 
 form {
@@ -116,7 +142,7 @@ form {
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 420px;
+    top: 350px;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -125,9 +151,15 @@ form {
   }
 
 .custom-button {
+    font-family: "Roboto", serif;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 395px;
-    left: 60px;
+    top: 345px;
+    left: 100px;
+}
+
+.message {
+    height: 100%;
+    padding: 50px;
 }
