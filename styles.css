@@ -21,14 +21,39 @@ h2.about {
     right: 235px; */
 }
 
-p {
+.home-bio{
     color: #000000;
     font-weight: regular;
     font-family: "Poppins", sans-serif;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FFFEFE;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFEFE; */
     font-size: 24px;
     text-shadow: 1px 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    /* border: red solid; */
+    /* margin-bottom: 100px; */
+    /* text-wrap: balance; */
+    /* position: relative;
+    top: 400px;
+    left: 60px */
+}
+
+.bio {
+    font-weight: regular;
+    font-family: "Poppins", sans-serif;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFEFE; */
+    font-size: 24px;
+    text-shadow: 1px 1px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    border: red solid;
     /* margin-bottom: 100px; */
     /* text-wrap: balance; */
     /* position: relative;
@@ -42,8 +67,9 @@ h3 {
     font-family: "Poppins", sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFFEFE;
-    font-size: 32px;
+    font-size: 24px;
     text-shadow: 1px 1px;
+    text-align: center;
 }
 
 .pr-flag {
@@ -52,7 +78,7 @@ h3 {
     flex-shrink: 0;
     aspect-ratio: 488/319;
     justify-self: center;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     /* position: relative;
     bottom: 260px;
     left: 670px; */
@@ -89,9 +115,9 @@ h2.work-heading {
     display: flex;
     justify-content: center;
     text-wrap: wrap;
-    letter-spacing: 50%;
+    /* letter-spacing: 50%;
     position: relative;
-    top: 70px;
+    top: 70px; */
 }
 
 .music-projects {
@@ -106,17 +132,19 @@ h2.work-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
+    
+    /* position: relative;
     bottom: -295px;
-    left: 50px;
+    left: 50px; */
 }
 
 .images {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: relative;
-    bottom: 100px;
+    margin-bottom: 250px;
+    /* position: relative;
+    bottom: 100px; */
 }
 
 
@@ -125,15 +153,14 @@ h2.contact-me {
     font-family: "Poppins", sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFFCFC;
-    font-size: 70px;
+    font-size: 64px;
     font-weight: bold;
     font-weight: 800;
     text-shadow: 1px 1px;
     display: flex;
     justify-content: center;
-    font-size: 64px;
-    position: relative;
-    bottom: 170px;
+    /* position: relative;
+    bottom: 170px; */
 }
 
 form {
@@ -141,8 +168,9 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    top: 350px;
+    /* padding-top: 100px; */
+    /* position: relative;
+    top: 350px; */
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -154,9 +182,9 @@ form {
     font-family: "Roboto", serif;
     display: flex;
     justify-content: center;
-    position: relative;
+    /* position: relative;
     top: 345px;
-    left: 100px;
+    left: 100px; */
 }
 
 .message {
@@ -166,5 +194,11 @@ form {
 
 .home-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center;
 }
